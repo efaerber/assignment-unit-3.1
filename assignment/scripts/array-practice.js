@@ -31,18 +31,20 @@ console.log('Number of foods;', favoriteFoods.length);
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
 
-console.log('Second animal is', animalArray[1])
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
 
-console.log('Last animal is', indexedDB)
+console.log('Last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
+
+
 
 
 
@@ -59,16 +61,18 @@ favoriteFoods.push('briscuit');
 console.log('Added briscuit to the end,', favoriteFoods);
 
 // Example: Remove the last animal by using Array.pop
-let removedAnimal = animalArray.pop();
+// let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
 console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
 
-let removedFoods = favoriteFoods.pop('briscuit')
-console.log('Removed briscuit', removedFoods);
-console.log('The foods are now', favoriteFoods);
+let removedAnimal = animalArray.pop('MyCatRick')
+console.log('Removed MyCatRick', animalArray);
+console.log('The foods are now', animalArray);
+
+
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
